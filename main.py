@@ -276,13 +276,6 @@ def append_log(sheet_id, log_data):
 # ---------------------------
 # 📦 Embedding & FAISS Setup
 # ---------------------------
-@st.cache_resource
-def load_model():
-    model = SentenceTransformer("all-MiniLM-L6-v2", use_auth_token=st.secrets["HF_TOKEN"])
-    return model.to("cpu")
-
-model = load_model()
-
 def embed_texts(texts: List[str], batch_size=32) -> List[List[float]]:
     return model.encode(texts, show_progress_bar=False, batch_size=batch_size).tolist()
 
