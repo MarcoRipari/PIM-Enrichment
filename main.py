@@ -667,6 +667,9 @@ def read_csv_auto_encoding(uploaded_file, separatore=None):
     else:
         return pd.read_csv(uploaded_file, encoding=encoding, dtype=str)
 
+def not_in_array(array, list):
+    missing = not all(col in array for col in list)
+    return missing
 
 # ---------------------------
 # 📦 Streamlit UI
