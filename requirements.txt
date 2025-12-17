@@ -1,0 +1,63 @@
+# 🌐 Web App
+streamlit
+Pillow
+chardet
+requests
+
+# 🤖 AI Generation e Prompting
+openai>=1.30.1
+transformers
+torch
+huggingface_hub
+
+# 📊 Google Sheets API (autenticazione tramite service_account)
+gspread
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+gspread-formatting
+
+# Google Drive API
+pydrive2
+
+# 🔎 Embedding e Retrieval (RAG)
+sentence-transformers
+faiss-cpu
+
+# 🧮 Data Processing
+pandas
+numpy
+
+# Utility
+tqdm
+aiohttp
+httpx
+tenacity
+dropbox
+reportlab
+python-dateutil
+supabase
+pyjwt
+streamlit-authenticator
+pdfplumber
+PyPDF2
+geopy
+deep-translator
+
+# UI / UX
+streamlit-option-menu
+streamlit-aggrid
+streamlit-ace
+st-tailwind
+streamlit-elements
+streamlit-modal
+stqdm
+plotly
+plotly-express
+altair
+streamlit-echarts
+st-annotated-text
+streamlit-chat
+streamlit-webrtc
+streamlit-extras
