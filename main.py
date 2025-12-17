@@ -27,6 +27,7 @@ import base64
 import zipfile
 import gspread
 from googleapiclient.discovery import build
+from google.oauth2 import service_account
 from collections import deque
 from deep_translator import GoogleTranslator
 from concurrent.futures import ThreadPoolExecutor, as_completed
